@@ -1,0 +1,16 @@
+.one-div{
+    background-color: blanchedalmond;
+    font-size: large;
+    width: 500px;
+}
+.two-div{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    color: orange;
+
+    
+}
+.img{
+    width:500px ;
+}

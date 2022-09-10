@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-div{
+    background-color: aqua;
+    font-family: 'Roboto', sans-serif;
+
+}
+.main-header{
+    color: orange;
+}
+#secondery-header{
+    color: yellow;
+}
+p .span-color{
+    color:brown;
+}
+#about-me p{
+    border: 2px solid greenyellow;
+    width: 500px;
+    height: 80px;
+}
+.links-of-social-networks{
+    border: 2px solid black;
+    width: 160px;
+}
