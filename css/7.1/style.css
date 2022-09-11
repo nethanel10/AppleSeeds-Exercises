@@ -1,0 +1,89 @@
+.btn-1{
+    background: lightskyblue;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 5px;
+    
+ 
+ }
+ .btn-1:hover{
+     color: black;
+ }
+
+ 
+ .btn-2{
+     background:orange;
+     border: none;
+    color: #ffffff;
+    margin-left: 80px;
+    border-radius: 5px;
+    padding: 4px;
+ }
+ .btn-2:hover{
+     color: black;
+ }
+ .btn-3{
+     background:green;
+     border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 4px;
+ }
+ .btn-3:hover{
+     color: black;
+ }
+ .btn-4{
+     background:pink;
+     border: none;
+    color: white;
+    margin-left: 80px;
+
+    border-radius: 5px;
+    padding: 4px;
+ }
+ .btn-4:hover{
+     color: black;
+ }
+ .btn-5{
+     background:none;
+     border: 3px solid red;
+    border-radius: 5px;
+    padding: 4px;
+
+ }
+ .btn-5:hover{
+     color: green;
+ }
+ .btn-6{
+     background:none;
+    margin-left: 80px;
+    border-radius: 5px;
+    padding: 4px;
+    border: 3px solid purple;
+ }
+ .btn-6:hover{
+     color: green;
+ }
+ .btn-7{
+     border: 3px solid yellow;
+
+     background:none;
+    border-radius: 10px;
+    padding:4px;
+ }
+ .btn-7:hover{
+     color: green;
+ }
+ .btn-8{
+     border: 3px solid lightgreen;
+
+     background:none;
+    margin-left: 80px;
+    border-radius: 10px;
+    padding: 4px;
+ }
+ .btn-8:hover{
+     color: green;
+ }
