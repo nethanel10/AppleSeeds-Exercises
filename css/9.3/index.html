@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.4em;
+        }
+        .container{
+           max-width:960px;
+            margin:30px auto;
+        }
+        .clr{
+            clear: both;
+        }
+
+        .box-1{
+            background: orange;
+            border: 1px solid #333 ;
+            padding: 10px;
+            margin-bottom: 8px;
+            text-align: center;
+            height: 60px;
+            
+
+        }
+    .box-2{
+        background: green;
+        text-align: left;
+        float: left;
+        width: 25%;
+        height: 180px;
+
+    }
+    .box-3{
+        background: purple;
+        text-align: right;
+        float: right;
+        width: 74%;
+        height: 180px;
+
+
+    }
+    .box-4{
+        background: blue;
+        text-align: center;
+        margin-bottom: 8px;
+        padding: 10px;
+        border: 1px solid #333 ;
+        margin-top: 8px;
+
+
+    }
+    @media all and (min-width:400px) and (max-width:800px){
+        .box-1{
+
+        }
+        .box-2{
+            position: relative;
+            
+        }
+        .box-3{
+            position: absolute;
+            width: 950px;
+            text-align: center;
+            
+    }
+
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+  <div class="box-1">
+    <h3>Header</h3>
+    </div>
+    <div class="box-2">
+        <h3>Side</h3>
+        </div>
+        <div class="box-3">
+            <h3>Main</h3>
+            </div>
+            <div class="clr">
+
+            </div>
+            <div class="box-4">
+                <h3>Footer</h3>
+                </div>
+        </div>
+   
+</body>
+</html>

@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.box{
+    
+    width: 100px;
+    height: 100px;
+}
+.container{
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
+    height:400px;
+    background-color: yellowgreen;
+    align-items: flex-end;
+
+
+}
+
+.box-1{
+   
+    background: green;
+}
+.box-2{
+    background: blue;
+}
+.box-3{
+    background: red;
+
+    
+
+  
+
+}

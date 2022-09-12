@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-div{
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    margin-top: 25px;
+
+}
+.main-header{
+    color: orange;
+}
+#secondery-header{
+    color: yellow;
+}
+p .span-color{
+    color:brown;
+}
+#about-me p{
+    border: 2px solid greenyellow;
+    width: 160px;
+    height: 80px;
+    margin-left: 215px;
+    margin-top: 10px;
+
+}
+.links-of-social-networks{
+    border: 2px solid black;
+    width: 160px;
+    margin-top: 10px;
+}
+.profileImage {
+    float: left;
+    margin-right: 15px;
+}
+.links-of-social-networks {
+    float: left;
+}
+li {
+    list-style: none;
+}
+
+.about-me {
+    float: left;
+}
+.side-menu{
+    border: 1px green solid;
+    border-radius: 10px;
+    width: 300px;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 2.4em;
+  border-bottom: dotted 1px #ddd;
+justify-content: center;
+}
+
+
+   
+.side-menu li:last-child{
+    border:none
+    
+}
+.side-menu li a{
+color: #333;
+text-decoration: none;
+}
+.side-menu li a:hover{
+color: coral;
+}
+.btn-1{
+    background: lightskyblue;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 5px;
+    
+ 
+ }
+ .btn-2{
+    background:orange;
+    border: none;
+   color: #ffffff;
+   border-radius: 5px;
+   padding: 4px;
+}
+.btn-3{
+    background:green;
+    border: none;
+   color:#ffffff ;
+   border-radius: 5px;
+   padding: 4px;
+}
+
+@media(min-width:500px) and (max-width:800px){
+    .main-header{
+        color: green;
+    }
+    h2{
+        color: blue;
+    }
+    .profileImage{
+        float: none;
+    }
+    #about-me p {
+        margin-left: 0;
+        border-color: red;
+    }
+    a{
+        font-size: 10px;
+    }
+    .side-menu {
+        width: 100%;
+        background-color: rgb(190, 205, 255);
+        border: none;
+        border-radius: 0;
+        width: 250px;
+    }
+}    
+
