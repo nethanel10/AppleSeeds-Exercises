@@ -1,0 +1,11 @@
+a::after {
+    content:'website (https://appleseeds.org.il/)  ' url() ;
+    
+    width:10px;
+    height:10px;
+    color: purple;
+    
+}   
+a:link{
+    text-decoration: none;
+}

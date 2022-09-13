@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html, body {
+    height:100%;
+    margin:0;
+
+}
+.container{
+    width: 40%;
+    height: 40%;
+    background-color: black;
+}
+#div1 {
+    position:relative;
+    margin:20px auto;
+    width:20%;
+    padding-bottom:20%;
+    background-color:black;
+    border:1px solid red;
+}
+#div1:before {
+    content:'';
+    position:absolute;
+    top:-1px; left:-1px;
+    border:1px solid black;
+    height:100%;
+    width:100%;
+    border-radius: 10%;
+}
+h3{
+    text-align: center;
+    justify-content: center;
+    margin-top: 75%;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="div1">
+            <h3>Cool Border</h3>
+        </div>
+    </div>
+    
+</body>
+</html>

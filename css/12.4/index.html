@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                .box{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+            width: 400px;
+            height: 300px;
+            background-color: black;
+            
+                }
+
+        .important-1{
+            position: relative;
+            margin-left: 8px;
+            margin-bottom: 10px;
+            
+        }
+        .important-1::after{
+            display: flex;
+            justify-content: center;
+
+            width: 5em;
+            height: 5em;
+            content: '';
+            position: absolute;
+            top: 0;
+            border-width: 2px;
+            border-style:solid;
+border-left-color: red;
+border-top-color: red;
+
+        }
+        .important-2{
+
+            position: relative;
+            margin-left: 8px;
+            margin-bottom: 30px;
+
+        }
+        .important-2::after{
+            width: 5em;
+            height: 5em;
+            content: '';
+            position: absolute;
+            top: 0;
+            right:    0.8em ; 
+            top: 0px;   
+
+            border-width: 2px;
+            border-style:solid;
+border-top-color: red;
+border-right-color: red;
+
+        }
+        .important-3{
+            position: relative;
+            margin: 10px;
+            margin-bottom: 40px;
+        }
+        .important-3::after{
+            display: flex;
+            justify-content: center;
+            margin-top :30px;
+            width: 5em;
+            height: 5em;
+            content: '';
+            position: absolute;
+            top: 0;
+            border-width: 2px;
+            border-style:solid;
+border-left-color: red;
+border-bottom-color: red;
+
+
+        }
+        .important-4{
+            position: relative;
+            margin: 10px;
+            margin-bottom: 40px;
+        }
+
+        .important-4::after{
+            display: flex;
+            justify-content: center;
+            margin-right: 20px;
+
+            width: 5em;
+            height: 5em;
+            content: '';
+            position: absolute;
+            right: -1.25em;
+            top: 0;
+            border-width: 2px;
+            border-style:solid;
+border-right-color: red;
+border-bottom-color: red;
+
+        }
+h3{
+text-align: center;  
+  color: white;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+        
+    </style>
+</head>
+<body>
+    
+        <div class="box"> 
+            <div class="important-1">
+                </div>
+                <div class="important-2">
+
+                </div>
+                <h3>cool border</h3>
+
+                    <div class="important-3">
+
+                    </div>
+
+                        <div class="important-4">
+                        </div>
+
+
+
+
+                
+
+    </div>
+    
+
+
+
+</body>
+</html>
