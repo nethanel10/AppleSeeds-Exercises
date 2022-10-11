@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>hello</h2>
+</body>
+<script>
+    const users = [
+{
+id: 167464,
+firstName: "Jimmy",
+lastName: "Arnold",
+email: "jimmya@gmail.com",
+},
+{
+id: 578447,
+firstName: "Martha",
+lastName: "Goldman",
+email: "gold@hotmail.com",
+},
+{
+id: 864578,
+firstName: "Tim",
+lastName: "Burton",
+email: "timmy.hotmail.com",
+},
+];
+//1
+let ol=document.createElement('ol')
+console.log(ol)
+users.forEach(val=>{
+    let li=document.createElement('li')
+    li.innerHTML = `${val.firstName} ${val.lastName}`
+ 
+ol.appendChild(li);
+li.setAttribute('data-id',val.id)//3
+
+
+});
+
+document.body.appendChild(ol).style.listStyle="none"//2.style.listStyle="none"
+</script>
+</html>

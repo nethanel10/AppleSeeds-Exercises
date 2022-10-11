@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0" />
+<title>Document</title>
+<script src="./script.js" defer>
+</script>
+</head>
+<body>
+<ul>
+<li>title 1</li>
+<li class="start-here">title 2</li>
+<li>
+<ul>
+<li>sub title 1</li>
+<li>sub title 2</li>
+<li>sub title 3</li>
+</ul>
+</li>
+<li>title 3</li>
+</ul>
+<div>
+<p>Hello World!</p>
+</div>
+</body>
+<script>
+    
+//     let starthere=document.querySelector(".start-here")
+//         console.log(starthere)
+//     //1
+//    let a= starthere.innerHTML="main title"
+//    console.log(a);
+//    //2
+// let ul=document.querySelector("ul")
+// console.log(ul)
+// let ulplus=ul.innerHTML+='<li>subtitle 4</li>'
+// console.log(ulplus)
+// //3
+// let ulupdate=ul
+// ul.removeChild(ulupdate.lastElementChild);//remove last child subtitle4
+// console.log(ulupdate)
+// //4
+// let title=document.querySelector('title')
+// console.log(title);
+// let titleupdate=title.innerHTML="Master Of The Dom";
+// console.log(titleupdate)
+// //5
+// let p=document.querySelector('p')
+// console.log(p)
+// let pupdate=p.innerHTML="hello there"
+// console.log(pupdate);
+//1
+const firstLi=document.querySelector('.start-here')
+firstLi.textContent="main title"
+//2
+const ul=firstLi.nextElementSibling.firstElementChild;
+const newLi=document.createElement('li')
+newLi.textContent='subtitle 4'
+ul.appendChild(newLi)
+//3
+const firstUl=firstLi.parentElement;
+firstUl.lastElementChild.remove();
+//4
+
+ let title=document.querySelector('title')
+ console.log(title);
+let titleupdate=title.innerHTML="Master Of The Dom";
+ console.log(titleupdate)   
+ //5
+ let p=document.querySelector('p')
+console.log(p)
+ let pupdate=p.innerHTML="hello there"
+ console.log(pupdate);
+
+ </script>
+</html>

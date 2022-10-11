@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+let title=document.querySelector('title')
+ console.log(title);
+let titleupdate=title.innerHTML="my webpage";
+ console.log(titleupdate);
+let body=document.querySelector('body')
+let h2header=document.createElement('h2')
+let h2content=h2header.innerHTML="welcome to my web"
+// let img=document.createElement('img')
+// let imgcontent=img.innerHTML=src('')
+// console.log(img);
+let h3header=document.createElement('h3')
+let h3content=h3header.innerHTML="this is my web"
+let p=document.createElement('p')
+let pcontent=p.innerHTML="Lorem ipsum dolor sit amet. In sapiente impedit aut recusandae temporibus aut voluptate debitis! Qui galisum molestiae sit laborum reiciendis in alias eaque."
+let p2=document.createElement('p')
+let p2content=p2.innerHTML="In nesciunt repellendus est nihil ipsum est doloribus dolorum qui voluptates dolores! Qui amet dignissimos nam corrupti excepturi 33 sunt omnis est cumque fugit!"
+
+let h2=document.createElement('h2')
+let h2content2=h2.innerHTML="my Interests:"
+let li=document.createElement("li")
+let licont=li.innerHTML=" foods"
+let li2=document.createElement("li")
+let li2cont=li2.innerHTML="Countries "
+let li3=document.createElement("li")
+let li3content=li3.innerHTML="landscapes "
+let li4=document.createElement("li")
+let li4content=li4.innerHTML="news "
+
+
+
+body.appendChild(h2header).style.color="green"
+body.appendChild(h3header)
+body.appendChild(p).style.color="blue";
+body.appendChild(p2);
+body.appendChild(h2)
+body.appendChild(li)
+body.appendChild(li2)
+body.appendChild(li3)
+body.appendChild(li4)
+
+
+
+
+console.log(h2header)
+console.log(h2content)
+
+</script>
+</html>
