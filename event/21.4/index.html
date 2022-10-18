@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    img{
+        width: 80px;
+        height: 80px;
+    }
+    input{
+        width: 80px;
+        height: 100px;
+    }
+</style>
+</head>
+<body>
+    <input type="image" src="/light-bulb-1-1427502.jpg">
+
+</body>
+<script>
+    let title=document.querySelector('title')
+    let titleupdate=title.innerHTML="lump"
+let h2=document.createElement('h2')
+let h2pointer=h2.innerHTML="my lump ";
+let body=document.querySelector('body')
+body.appendChild(h2)
+document.querySelector('input').addEventListener('click', function() {
+    let status="";
+  console.log(`lump is${status="on" ? "heloo" : " not"} checked`);
+})
+
+
+
+</script>
+</html>

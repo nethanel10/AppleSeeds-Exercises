@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+ 
+<body style="text-align: center;">
+ 
+     
+<p>
+        why are you  interested in this position?
+    </p>
+ 
+ 
+ 
+    <textarea id="inputField" rows=10 cols="60">
+    </textarea>
+    <br><br>
+ 
+    <button onclick="countWordsis100()">
+        click here!
+    </button>
+    <br><br>
+ 
+     
+
+        <span id="show"></span>
+    
+ 
+ 
+    <script>
+        function countWordsis100() {
+ 
+            // Get the input text value
+            var text = document
+                .getElementById("inputField").value;
+ 
+            // Initialize the word counter
+            var numWords = 0;
+ 
+            // Loop through the text
+            // and count spaces in it
+            for (var i = 0; i < text.length; i++) {
+                var currentCharacter = text[i];
+ 
+                // Check if the character is a space
+                if (currentCharacter == " ") {
+                    numWords += 1;
+                }
+            }
+ 
+            // Add 1 to make the count equal to
+            // the number of words
+            // (count of words = count of spaces + 1)
+            numWords += 1;
+            if(numWords<100){
+                console.log("press 100 words");
+            }
+ 
+            // Display it as output
+      let  counter  =   document.getElementById("show")
+      counter.addEventListener('click',countWordsis100)
+                
+        }
+    </script>
+</body>
+ 
+</html>
