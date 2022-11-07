@@ -1,0 +1,9 @@
+.Box{
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
